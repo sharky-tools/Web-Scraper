@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PJ Scraper</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <img src="assets/logo.png" alt="PJ Logo" class="logo">
+    
+    <label>Paste the base Url here:</label>
+    <input type="text" placeholder="https://www.pagesjaunes.fr/..." id="urlInput">
+
+    <label>Number of pages:</label>
+    <input type="number" id="pageInput" placeholder="e.g. 50">
+
+    <button id="startBtn">Start Scrapping</button>
+    <button id="stopBtn" style="display:none;">Stop Scrapping</button>
+
+    <div class="status">
+      <p>Scrapping page: <span id="currentPage">0</span></p>
+      <p>Scrapped pages: <span id="scrappedPages">0</span></p>
+      <p>Urls Collected: <span id="collected">0</span></p>
+    </div>
+
+    <p class="footer">PJ Scrapper: (more sites will be added along side with 'pagesjaunes')</p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

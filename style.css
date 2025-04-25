@@ -1,0 +1,60 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .container {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  label {
+    text-align: left;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+ 
+  input, button {
+    font-family: inherit;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+  }
+
+  button {
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #startBtn {
+    background-color: white;
+    color: black;
+  }
+  
+  #stopBtn {
+    background-color: red;
+    color: white;
+  }
+  
+  .logo {
+    width: 300px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  

@@ -1,0 +1,409 @@
+2025-04-24 04:44:01,152 - INFO - ====== WebDriver manager ======
+2025-04-24 04:44:01,666 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:44:02,137 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:44:02,570 - INFO - There is no [linux64] chromedriver "135.0.7049.114" for browser google-chrome "135.0.7049" in cache
+2025-04-24 04:44:02,570 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:44:03,827 - INFO - WebDriver version 135.0.7049.114 selected
+2025-04-24 04:44:03,834 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/linux64/chromedriver-linux64.zip
+2025-04-24 04:44:03,835 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/linux64/chromedriver-linux64.zip
+2025-04-24 04:44:04,420 - INFO - Driver downloading response is 200
+2025-04-24 04:44:13,377 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:44:34,419 - INFO - ====== WebDriver manager ======
+2025-04-24 04:44:34,599 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:44:34,986 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:44:35,486 - INFO - There is no [linux64] chromedriver "135.0.7049.114" for browser google-chrome "135.0.7049" in cache
+2025-04-24 04:44:35,487 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:44:37,004 - INFO - WebDriver version 135.0.7049.114 selected
+2025-04-24 04:44:37,011 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/linux64/chromedriver-linux64.zip
+2025-04-24 04:44:37,012 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/linux64/chromedriver-linux64.zip
+2025-04-24 04:44:37,537 - INFO - Driver downloading response is 200
+2025-04-24 04:44:45,543 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:44:46,403 - INFO - Driver has been saved in cache [/home/dominic/.wdm/drivers/chromedriver/linux64/135.0.7049.114]
+2025-04-24 04:44:48,749 - ERROR - Traceback (most recent call last):
+  File "/home/dominic/.local/lib/python3.10/site-packages/webview/util.py", line 241, in _call
+    result = func(*func_params)
+  File "/home/dominic/Desktop/script1/web scraper/app.py", line 8, in start_scraping
+    collected_urls = collector.run_scraper(url, pages)
+  File "/home/dominic/Desktop/script1/web scraper/scraper.py", line 101, in run_scraper
+    self.driver.get(url)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x5d26fa9b975a <unknown>
+#1 0x5d26fa46c303 <unknown>
+#2 0x5d26fa453070 <unknown>
+#3 0x5d26fa45169a <unknown>
+#4 0x5d26fa451c8a <unknown>
+#5 0x5d26fa46f949 <unknown>
+#6 0x5d26fa50a1f5 <unknown>
+#7 0x5d26fa4e3592 <unknown>
+#8 0x5d26fa5095e0 <unknown>
+#9 0x5d26fa4e3363 <unknown>
+#10 0x5d26fa4afd63 <unknown>
+#11 0x5d26fa4b09c1 <unknown>
+#12 0x5d26fa97ea6b <unknown>
+#13 0x5d26fa982951 <unknown>
+#14 0x5d26fa966b62 <unknown>
+#15 0x5d26fa9834c4 <unknown>
+#16 0x5d26fa94b13f <unknown>
+#17 0x5d26fa9a76f8 <unknown>
+#18 0x5d26fa9a78d6 <unknown>
+#19 0x5d26fa9b85a6 <unknown>
+#20 0x7293bda94ac3 <unknown>
+
+
+2025-04-24 04:44:55,686 - INFO - ====== WebDriver manager ======
+2025-04-24 04:44:55,934 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:44:56,418 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:44:56,921 - INFO - Driver [/home/dominic/.wdm/drivers/chromedriver/linux64/135.0.7049.114/chromedriver-linux64/chromedriver] found in cache
+2025-04-24 04:44:58,605 - ERROR - Traceback (most recent call last):
+  File "/home/dominic/.local/lib/python3.10/site-packages/webview/util.py", line 241, in _call
+    result = func(*func_params)
+  File "/home/dominic/Desktop/script1/web scraper/app.py", line 8, in start_scraping
+    collected_urls = collector.run_scraper(url, pages)
+  File "/home/dominic/Desktop/script1/web scraper/scraper.py", line 101, in run_scraper
+    self.driver.get(url)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x619194bc475a <unknown>
+#1 0x619194677303 <unknown>
+#2 0x61919465e070 <unknown>
+#3 0x61919465c69a <unknown>
+#4 0x61919465cc8a <unknown>
+#5 0x61919467a949 <unknown>
+#6 0x6191947151f5 <unknown>
+#7 0x6191946ee592 <unknown>
+#8 0x6191947145e0 <unknown>
+#9 0x6191946ee363 <unknown>
+#10 0x6191946bad63 <unknown>
+#11 0x6191946bb9c1 <unknown>
+#12 0x619194b89a6b <unknown>
+#13 0x619194b8d951 <unknown>
+#14 0x619194b71b62 <unknown>
+#15 0x619194b8e4c4 <unknown>
+#16 0x619194b5613f <unknown>
+#17 0x619194bb26f8 <unknown>
+#18 0x619194bb28d6 <unknown>
+#19 0x619194bc35a6 <unknown>
+#20 0x7df694c94ac3 <unknown>
+
+
+2025-04-24 04:45:01,418 - INFO - ====== WebDriver manager ======
+2025-04-24 04:45:01,662 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:45:02,095 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:45:03,936 - INFO - Driver [/home/dominic/.wdm/drivers/chromedriver/linux64/135.0.7049.114/chromedriver-linux64/chromedriver] found in cache
+2025-04-24 04:45:05,638 - ERROR - Traceback (most recent call last):
+  File "/home/dominic/.local/lib/python3.10/site-packages/webview/util.py", line 241, in _call
+    result = func(*func_params)
+  File "/home/dominic/Desktop/script1/web scraper/app.py", line 8, in start_scraping
+    collected_urls = collector.run_scraper(url, pages)
+  File "/home/dominic/Desktop/script1/web scraper/scraper.py", line 101, in run_scraper
+    self.driver.get(url)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x59777397075a <unknown>
+#1 0x597773423303 <unknown>
+#2 0x59777340a070 <unknown>
+#3 0x59777340869a <unknown>
+#4 0x597773408c8a <unknown>
+#5 0x597773426949 <unknown>
+#6 0x5977734c11f5 <unknown>
+#7 0x59777349a592 <unknown>
+#8 0x5977734c05e0 <unknown>
+#9 0x59777349a363 <unknown>
+#10 0x597773466d63 <unknown>
+#11 0x5977734679c1 <unknown>
+#12 0x597773935a6b <unknown>
+#13 0x597773939951 <unknown>
+#14 0x59777391db62 <unknown>
+#15 0x59777393a4c4 <unknown>
+#16 0x59777390213f <unknown>
+#17 0x59777395e6f8 <unknown>
+#18 0x59777395e8d6 <unknown>
+#19 0x59777396f5a6 <unknown>
+#20 0x7a5e6da94ac3 <unknown>
+
+
+2025-04-24 04:45:16,568 - INFO - ====== WebDriver manager ======
+2025-04-24 04:45:16,794 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:45:17,229 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:45:17,724 - INFO - Driver [/home/dominic/.wdm/drivers/chromedriver/linux64/135.0.7049.114/chromedriver-linux64/chromedriver] found in cache
+2025-04-24 04:45:19,361 - ERROR - Traceback (most recent call last):
+  File "/home/dominic/.local/lib/python3.10/site-packages/webview/util.py", line 241, in _call
+    result = func(*func_params)
+  File "/home/dominic/Desktop/script1/web scraper/app.py", line 8, in start_scraping
+    collected_urls = collector.run_scraper(url, pages)
+  File "/home/dominic/Desktop/script1/web scraper/scraper.py", line 101, in run_scraper
+    self.driver.get(url)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x64ce91c3b75a <unknown>
+#1 0x64ce916ee303 <unknown>
+#2 0x64ce916d5070 <unknown>
+#3 0x64ce916d369a <unknown>
+#4 0x64ce916d3c8a <unknown>
+#5 0x64ce916f1949 <unknown>
+#6 0x64ce9178c1f5 <unknown>
+#7 0x64ce91765592 <unknown>
+#8 0x64ce9178b5e0 <unknown>
+#9 0x64ce91765363 <unknown>
+#10 0x64ce91731d63 <unknown>
+#11 0x64ce917329c1 <unknown>
+#12 0x64ce91c00a6b <unknown>
+#13 0x64ce91c04951 <unknown>
+#14 0x64ce91be8b62 <unknown>
+#15 0x64ce91c054c4 <unknown>
+#16 0x64ce91bcd13f <unknown>
+#17 0x64ce91c296f8 <unknown>
+#18 0x64ce91c298d6 <unknown>
+#19 0x64ce91c3a5a6 <unknown>
+#20 0x7b74e0e94ac3 <unknown>
+
+
+2025-04-24 04:45:33,035 - INFO - ====== WebDriver manager ======
+2025-04-24 04:45:33,234 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:45:33,659 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:45:34,150 - INFO - Driver [/home/dominic/.wdm/drivers/chromedriver/linux64/135.0.7049.114/chromedriver-linux64/chromedriver] found in cache
+2025-04-24 04:45:35,776 - ERROR - Traceback (most recent call last):
+  File "/home/dominic/.local/lib/python3.10/site-packages/webview/util.py", line 241, in _call
+    result = func(*func_params)
+  File "/home/dominic/Desktop/script1/web scraper/app.py", line 8, in start_scraping
+    collected_urls = collector.run_scraper(url, pages)
+  File "/home/dominic/Desktop/script1/web scraper/scraper.py", line 101, in run_scraper
+    self.driver.get(url)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x5afdb685775a <unknown>
+#1 0x5afdb630a303 <unknown>
+#2 0x5afdb62f1070 <unknown>
+#3 0x5afdb62ef69a <unknown>
+#4 0x5afdb62efc8a <unknown>
+#5 0x5afdb630d949 <unknown>
+#6 0x5afdb63a81f5 <unknown>
+#7 0x5afdb6381592 <unknown>
+#8 0x5afdb63a75e0 <unknown>
+#9 0x5afdb6381363 <unknown>
+#10 0x5afdb634dd63 <unknown>
+#11 0x5afdb634e9c1 <unknown>
+#12 0x5afdb681ca6b <unknown>
+#13 0x5afdb6820951 <unknown>
+#14 0x5afdb6804b62 <unknown>
+#15 0x5afdb68214c4 <unknown>
+#16 0x5afdb67e913f <unknown>
+#17 0x5afdb68456f8 <unknown>
+#18 0x5afdb68458d6 <unknown>
+#19 0x5afdb68565a6 <unknown>
+#20 0x7f5731294ac3 <unknown>
+
+
+2025-04-24 04:54:30,261 - INFO - ====== WebDriver manager ======
+2025-04-24 04:54:30,667 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:54:31,225 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 04:54:31,690 - INFO - Driver [/home/dominic/.wdm/drivers/chromedriver/linux64/135.0.7049.114/chromedriver-linux64/chromedriver] found in cache
+2025-04-24 04:54:38,349 - ERROR - Traceback (most recent call last):
+  File "/home/dominic/.local/lib/python3.10/site-packages/webview/util.py", line 241, in _call
+    result = func(*func_params)
+  File "/home/dominic/Desktop/script1/web scraper/app.py", line 8, in start_scraping
+    collected_urls = collector.run_scraper(url, pages)
+  File "/home/dominic/Desktop/script1/web scraper/scraper.py", line 101, in run_scraper
+    self.driver.get(url)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/home/dominic/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x5d2a5f38575a <unknown>
+#1 0x5d2a5ee38303 <unknown>
+#2 0x5d2a5ee1f070 <unknown>
+#3 0x5d2a5ee1d69a <unknown>
+#4 0x5d2a5ee1dc8a <unknown>
+#5 0x5d2a5ee3b949 <unknown>
+#6 0x5d2a5eed61f5 <unknown>
+#7 0x5d2a5eeaf592 <unknown>
+#8 0x5d2a5eed55e0 <unknown>
+#9 0x5d2a5eeaf363 <unknown>
+#10 0x5d2a5ee7bd63 <unknown>
+#11 0x5d2a5ee7c9c1 <unknown>
+#12 0x5d2a5f34aa6b <unknown>
+#13 0x5d2a5f34e951 <unknown>
+#14 0x5d2a5f332b62 <unknown>
+#15 0x5d2a5f34f4c4 <unknown>
+#16 0x5d2a5f31713f <unknown>
+#17 0x5d2a5f3736f8 <unknown>
+#18 0x5d2a5f3738d6 <unknown>
+#19 0x5d2a5f3845a6 <unknown>
+#20 0x7d25b1c94ac3 <unknown>
+
+
+2025-04-24 19:59:25,624 - ERROR - GTK cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 37, in import_gtk
+    import webview.platforms.gtk as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/gtk.py", line 20, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+2025-04-24 19:59:25,631 - ERROR - QT cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 49, in import_qt
+    import webview.platforms.qt as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/qt.py", line 23, in <module>
+    from qtpy import QtCore
+ModuleNotFoundError: No module named 'qtpy'
+2025-04-24 20:00:06,030 - ERROR - GTK cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 37, in import_gtk
+    import webview.platforms.gtk as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/gtk.py", line 20, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+2025-04-24 20:00:06,035 - ERROR - QT cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 49, in import_qt
+    import webview.platforms.qt as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/qt.py", line 23, in <module>
+    from qtpy import QtCore
+ModuleNotFoundError: No module named 'qtpy'
+2025-04-24 20:02:23,100 - ERROR - GTK cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 37, in import_gtk
+    import webview.platforms.gtk as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/gtk.py", line 20, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+2025-04-24 20:02:23,104 - ERROR - QT cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 49, in import_qt
+    import webview.platforms.qt as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/qt.py", line 23, in <module>
+    from qtpy import QtCore
+ModuleNotFoundError: No module named 'qtpy'
+2025-04-24 20:02:27,325 - ERROR - GTK cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 37, in import_gtk
+    import webview.platforms.gtk as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/gtk.py", line 20, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+2025-04-24 20:02:27,329 - ERROR - QT cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 49, in import_qt
+    import webview.platforms.qt as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/qt.py", line 23, in <module>
+    from qtpy import QtCore
+ModuleNotFoundError: No module named 'qtpy'
+2025-04-24 20:02:47,702 - ERROR - GTK cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 37, in import_gtk
+    import webview.platforms.gtk as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/gtk.py", line 20, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+2025-04-24 20:02:47,706 - ERROR - QT cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 49, in import_qt
+    import webview.platforms.qt as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/qt.py", line 23, in <module>
+    from qtpy import QtCore
+ModuleNotFoundError: No module named 'qtpy'
+2025-04-24 20:04:22,648 - ERROR - GTK cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 37, in import_gtk
+    import webview.platforms.gtk as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/gtk.py", line 20, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+2025-04-24 20:04:22,655 - ERROR - QT cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 49, in import_qt
+    import webview.platforms.qt as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/qt.py", line 23, in <module>
+    from qtpy import QtCore
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/qtpy/__init__.py", line 293, in <module>
+    raise QtBindingsNotFoundError from None
+qtpy.QtBindingsNotFoundError: No Qt bindings could be found
+2025-04-24 20:04:42,628 - ERROR - GTK cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 37, in import_gtk
+    import webview.platforms.gtk as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/gtk.py", line 20, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+2025-04-24 20:04:42,635 - ERROR - QT cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 49, in import_qt
+    import webview.platforms.qt as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/qt.py", line 23, in <module>
+    from qtpy import QtCore
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/qtpy/__init__.py", line 293, in <module>
+    raise QtBindingsNotFoundError from None
+qtpy.QtBindingsNotFoundError: No Qt bindings could be found
+2025-04-24 20:04:49,442 - ERROR - GTK cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 37, in import_gtk
+    import webview.platforms.gtk as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/gtk.py", line 20, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+2025-04-24 20:04:49,448 - ERROR - QT cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 49, in import_qt
+    import webview.platforms.qt as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/qt.py", line 23, in <module>
+    from qtpy import QtCore
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/qtpy/__init__.py", line 293, in <module>
+    raise QtBindingsNotFoundError from None
+qtpy.QtBindingsNotFoundError: No Qt bindings could be found
+2025-04-24 23:10:02,204 - ERROR - GTK cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 37, in import_gtk
+    import webview.platforms.gtk as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/gtk.py", line 20, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+2025-04-24 23:10:02,210 - ERROR - QT cannot be loaded
+Traceback (most recent call last):
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/guilib.py", line 49, in import_qt
+    import webview.platforms.qt as guilib
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/webview/platforms/qt.py", line 23, in <module>
+    from qtpy import QtCore
+  File "/home/dominic/Desktop/script1/.venv/lib/python3.10/site-packages/qtpy/__init__.py", line 293, in <module>
+    raise QtBindingsNotFoundError from None
+qtpy.QtBindingsNotFoundError: No Qt bindings could be found
